@@ -92,5 +92,5 @@ print(two_sum_optimized([2,7,11,15], 9))  # Output: [0,1]
   🗂 Space: O(n)
 
  
-##Pattern
+## Pattern
 Type: Arrays + Hashing
