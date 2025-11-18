@@ -50,16 +50,16 @@ i = 0, j = 1 → nums[0]+nums[1] = 2+7 = 9 → match → return [0,1]
                   return [i, j]
       return []
 ```
-# Example 
+## Example 
 print(two_sum_bruteforce([2,7,11,15], 9))  # Output: [0,1]
 
-Complexity:
+##Complexity:
 
    ⏱ Time: O(n²)
 
   🗂 Space: O(1)
 
-Approach 2: Optimized (Hash Map)
+## Approach 2: Optimized (Hash Map)
 
 Step-by-step:
 
@@ -82,19 +82,15 @@ Code:
             seen[num] = i
         return []
 ```
-# Example
+## Example
 print(two_sum_optimized([2,7,11,15], 9))  # Output: [0,1]
 
-Complexity:
+## Complexity:
 
   ⏱ Time: O(n)
 
   🗂 Space: O(n)
 
-🧩 Pattern
-
-  Type: Arrays + Hashing
-
-  Template: Walk through array → check complement in hash map → add current number to hash map
-
-  When to use: Anytime you need to find pairs efficiently in an array
+ 
+##Pattern
+Type: Arrays + Hashing
