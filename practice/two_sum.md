@@ -1,33 +1,47 @@
-# Two Sum
+# 🟢 Two Sum
 
-LeetCode Question: https://leetcode.com/problems/two-sum/
-
-Problem Statement:
-Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
-Each input has exactly one solution, and you may not use the same element twice.
-
-Intuition:
-The simplest approach is to check all possible pairs to see if their sum equals the target → brute force.
-- Problem: This takes O(n^2) time, inefficient for large arrays.
-
-Better approach: Keep track of numbers we have already seen in a hash map and check if the complement (target - current number) exists → optimized hash map.
-
-Step-by-step Example:
-nums = [2, 7, 11, 15], target = 9
-seen = {}
-
-Step 1: num=2 → complement=7 → 7 not in seen → add 2 to seen → seen={2:0}
-Step 2: num=7 → complement=2 → 2 is in seen → found the pair → return indices [0,1]
+**LeetCode Question:** [Two Sum](https://leetcode.com/problems/two-sum/)
 
 ---
 
-Approach 1: Brute Force (Step-by-step)
+## 📌 Problem Statement
+Given an array of integers `nums` and an integer `target`, return **indices of the two numbers** such that they add up to `target`.  
+
+**Constraints:**
+- Each input has **exactly one solution**.  
+- You **cannot use the same element twice**.
+
+---
+
+## 💡 Intuition
+- **Brute Force Idea:** Check all possible pairs → O(n²) time.  
+- **Optimized Idea:** Use a **hash map** to remember numbers we’ve seen.  
+  - For each number, check if `target - num` exists in the map.  
+  - If yes → return indices.  
+  - If no → store `num` in the map and continue.
+
+**Step-by-step Example:**
+
+nums = [2, 7, 11, 15], target = 9
+seen = {}
+
+Step 1: num = 2 → complement = 7 → 7 not in seen → add 2:0 → seen = {2:0}
+Step 2: num = 7 → complement = 2 → 2 is in seen → pair found → return [0,1]
+
+
+---
+
+## 🟡 Approach 1: Brute Force
+
+**Step-by-step:**
+
 nums = [2, 7, 11, 15], target = 9
 
-Step 1: i=0, j=1 → nums[0]+nums[1]=2+7=9 → matches target → return [0,1]
-Step 2: (not needed, already returned)
+i = 0, j = 1 → nums[0]+nums[1] = 2+7 = 9 → match → return [0,1]
 
-Code:
+
+**Code:**
+```python
 def two_sum_bruteforce(nums, target):
     n = len(nums)
     for i in range(n):
@@ -36,24 +50,29 @@ def two_sum_bruteforce(nums, target):
                 return [i, j]
     return []
 
+# Example usage
 print(two_sum_bruteforce([2,7,11,15], 9))  # Output: [0,1]
 
 Complexity:
-Time: O(n^2)
-Space: O(1)
 
----
+    ⏱ Time: O(n²)
 
-Approach 2: Optimized (Hash Map) – Step-by-step
+    🗂 Space: O(1)
+
+🟢 Approach 2: Optimized (Hash Map)
+
+Step-by-step:
+
 nums = [2, 7, 11, 15], target = 9
 seen = {}
 
-Step 1: num=2 → complement=7 → 7 not in seen → add 2 to seen → seen={2:0}
-Step 2: num=7 → complement=2 → 2 is in seen → found the pair → return indices [0,1]
-Step 3: num=11 → not reached
-Step 4: num=15 → not reached
+Step 1: num = 2 → complement = 7 → 7 not in seen → add 2:0 → seen = {2:0}
+Step 2: num = 7 → complement = 2 → 2 is in seen → pair found → return [0,1]
+Step 3: num = 11 → not reached
+Step 4: num = 15 → not reached
 
 Code:
+
 def two_sum_optimized(nums, target):
     seen = {}
     for i, num in enumerate(nums):
@@ -63,13 +82,19 @@ def two_sum_optimized(nums, target):
         seen[num] = i
     return []
 
+# Example usage
 print(two_sum_optimized([2,7,11,15], 9))  # Output: [0,1]
 
 Complexity:
-Time: O(n)
-Space: O(n)
 
-Pattern:
-Type: Arrays + Hashing
-Template: Walk through array → check complement in hash map → add current number to hash map
-When to use: If you need to find pairs in an array efficiently
+    ⏱ Time: O(n)
+
+    🗂 Space: O(n)
+
+🧩 Pattern
+
+    Type: Arrays + Hashing
+
+    Template: Walk through array → check complement in hash map → add current number to hash map
+
+    When to use: Anytime you need to find pairs efficiently in an array
