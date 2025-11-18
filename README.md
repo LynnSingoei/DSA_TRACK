@@ -1,275 +1,190 @@
-# DSA_TRACK
-Data Structures & Algorithms (DSA) – Complete Beginner-to-Expert Guide
+ DSA TRACK – COMPLETE BEGINNER TO EXPERT ROADMAP
 
-Welcome to the ultimate Data Structures & Algorithms (DSA) roadmap created for beginners, students, and anyone who wants to master problem-solving and technical interview skills.
+Welcome to the ultimate **DSA Mastery Repository** — designed to take anyone from absolute beginner to interview-ready expert.  
+This repo is structured with **Theory + Practice**, mini-projects, and pattern-based exercises.
 
-This repository is divided into two major sections:
+---
 
-📘 Theory (Concepts + Notes + Code Examples)
+## 📂 Repository Structure
 
-🧠 Practice (Pattern-based problems + LeetCode solutions)
+📂 dsa-roadmap/
+│
+├── 📘 theory/
+│ ├── 01-introduction/
+│ ├── 02-arrays/
+│ ├── 03-linked-lists/
+│ ├── 04-stacks-and-queues/
+│ ├── 05-hashing/
+│ ├── 06-trees/
+│ ├── 07-heaps/
+│ ├── 08-graphs/
+│ ├── 09-greedy/
+│ ├── 10-dp/
+│ └── 11-sorting/
+│
+└── 🧠 practice/
+├── patterns/
+├── sample-format/
+└── two-sum/
 
-Every topic is structured to take you from zero → hero, with clear explanations, diagrams, implementation examples, and recommended exercises.
 
-Goals of This Repository
+---
+
+## 🎯 Goals of This Repo
 
 By following this roadmap, you will:
 
-✔ Understand every major data structure and algorithm
-✔ Code them from scratch in your language of choice
-✔ Learn complexity analysis (Big-O) deeply
-✔ Master the core patterns required for coding interviews
-✔ Build real mini-projects to reinforce every concept
-✔ Prepare confidently for FAANG-level interviews
+- Master all major data structures & algorithms  
+- Write clean, efficient implementations  
+- Learn Big-O time & space complexity  
+- Build mini-projects for every topic  
+- Solve pattern-based coding problems  
+- Prepare confidently for technical interviews  
 
-THE THEORY SECTION
+---
 
-Each topic folder contains:
+## 📘 Theory Section Overview
 
-Overview / Real-life analogy
+Each topic contains:
 
-Why this matters
+- Concept explanations + diagrams  
+- Operations & complexities  
+- Implementation examples  
+- Mini-projects  
+- Recommended exercises  
 
-Operations & Time complexities
+---
 
-Visual diagrams
+### 1. 🔰 Introduction to DSA
+**Concepts**
+- What is DSA?  
+- Why it matters in software engineering  
+- Time & Space complexity  
+- Big-O notation explained  
+- Common beginner pitfalls  
 
-Multiple implementations (Python/Java/C++)
+**Mini-Project:** Runtime visualizer comparing O(1), O(N), O(N²)
 
-Mini-project / assignment
+---
 
-Recommended questions
+### 2. 🧱 Arrays
+**Concepts**
+- Static vs dynamic arrays  
+- Indexing, searching, insertion, deletion  
+- Subarrays, prefix sums, sliding window  
 
-Below is the full roadmap.
+**Mini-Project:** Image pixel manipulator
 
-1. 🔰 Introduction to DSA
+---
 
-What is DSA?
+### 3. 🔗 Linked Lists
+**Concepts**
+- Singly, doubly, circular linked lists  
+- Slow-fast pointers  
+- Sentinel nodes  
 
-How DSA helps in real-world engineering
+**Mini-Project:** Music playlist simulator
 
-Space & Time complexity
+---
 
-Big-O notation explained with visuals
+### 4. 🗂️ Stacks & Queues
+**Concepts**
+- LIFO / FIFO  
+- Monotonic stack  
+- Circular queue  
 
-Common mistakes beginners make
+**Mini-Project:** Browser navigation simulator
 
-Mini-Project
+---
 
-Build a runtime visualizer that compares O(1), O(N), O(N²) loops.
+### 5. 🔑 Hashing
+**Concepts**
+- Hash tables, collisions, sets vs maps  
 
-2. 🧱 Arrays
-Concepts
+**Mini-Project:** Contact management system
 
-Static vs dynamic arrays
+---
 
-Indexing
+### 6. 🌳 Trees
+**Concepts**
+- Binary trees, BSTs  
+- Traversals  
+- Balanced trees & Tries  
 
-Common operations
+**Mini-Project:** Auto-suggest search bar
 
-Prefix sums
+---
 
-Sliding window introduction
+### 7. 🛢️ Heaps & Priority Queues
+**Concepts**
+- Min-heap, max-heap, heapify  
 
-Code Implementations
+**Mini-Project:** Task scheduler
 
-Reverse array
+---
 
-Rotate array
+### 8. 🌐 Graphs
+**Concepts**
+- BFS, DFS, topological sort  
+- Dijkstra, cycle detection  
 
-Dynamic resizing
+**Mini-Project:** Shortest path engine (mini Google Maps)
 
-Mini-Project
+---
 
-Build a simple image pixel manipulator using arrays.
+### 9. ⚡ Greedy Algorithms
+**Concepts**
+- Activity selection  
+- Fractional knapsack  
+- Huffman coding  
 
-3. 🔗 Linked Lists
-Concepts
+**Mini-Project:** Text compression tool
 
-Singly
+---
 
-Doubly
+### 10. 🧩 Dynamic Programming
+**Concepts**
+- Memoization, tabulation  
+- Overlapping subproblems  
 
-Circular
+**Mini-Project:** Substring-based text predictor
 
-Slow-fast pointers
+---
 
-Sentinel nodes
+### 11. 🔄 Sorting Algorithms
+**Concepts**
+- Bubble, insertion, merge, quick, heap, counting  
+- Complexity analysis  
 
-Implementations
+**Mini-Project:** Sorting visualizer
 
-Insert, delete, search
+---
 
-Reverse a linked list
+## 🧠 Practice Section
 
-Detect loop (Floyd’s algorithm)
+- Pattern-based problem solutions  
+- Sample solution format  
+- One LeetCode example: **Two Sum**  
+  - Explanation  
+  - Brute force & optimized solution  
+  - Time & space complexity  
+  - Pattern explanation  
 
-Merge two sorted linked lists
+---
 
-Mini-Project
+## 💻 How to Use
 
-Build your own music playlist system.
+1. Start with **Theory** (01 → 11)  
+2. Complete **mini-projects** after each topic  
+3. Move to **Practice → Patterns**  
+4. Solve problems using the **sample format**  
+5. Contribute via PRs
 
-4. 🗂️ Stacks & Queues
-Concepts
+---
 
-LIFO & FIFO
+## 🤝 Contributing
 
-Implementation using arrays, linked lists
-
-Monotonic stacks
-
-Circular queue
-
-Mini-Project
-
-Browser forward/backward navigation simulator.
-
-5. 🔑 Hashing
-Concepts
-
-Hash tables
-
-Collisions (chaining, open addressing)
-
-Hash functions
-
-Sets vs maps
-
-Mini-Project
-
-Build your own contact dictionary.
-
-6. 🌳 Trees
-Concepts
-
-Binary Trees
-
-BSTs
-
-Traversals
-
-Balanced trees (AVL, Red-Black overview)
-
-Tries
-
-Mini-Project
-
-Auto-suggest search bar.
-
-7. 🛢️ Heaps & Priority Queues
-
-Min-heap
-
-Max-heap
-
-Heapify
-
-K-largest problems
-
-Mini-Project
-
-Build a real-time task scheduler.
-
-8. 🌐 Graphs
-Concepts
-
-Adjacency list/matrix
-
-BFS
-
-DFS
-
-Topological sort
-
-Dijkstra
-
-Detect cycles
-
-Connected components
-
-Mini-Project
-
-Build a mini Google Maps shortest path engine.
-
-9. ⚡ Greedy Algorithms
-
-When greedy works
-
-Activity selection
-
-Huffman coding
-
-Interval scheduling
-
-Mini-Project
-
-Create a compression algorithm using Huffman coding.
-
-10. 🧩 Dynamic Programming (DP)
-
-Memoization
-
-Tabulation
-
-Subproblems
-
-DP patterns
-
-Mini-Project
-
-Build a DP-based chatbot that predicts text using substring matching.
-
-11. 🔄 Sorting Algorithms
-
-Bubble
-
-Insertion
-
-Merge
-
-Quick
-
-Heap sort
-
-Counting sort
-
-Mini-Project
-
-Build a sorting visualizer.
-
-🧠 PRACTICE SECTION
-
-This folder contains:
-
-✔ Pattern-based problem solutions
-
-Sliding window
-
-Two pointers
-
-Binary search
-
-BFS/DFS
-
-Hashing
-
-DP patterns
-
-Backtracking
-
-Contributing
-
-Please follow the rules:
-
-Stick to the solution structure
-
-Add explanations
-
-Clean and readable code
-
-No plagiarism
-
-Use proper folder naming
-
-
+- Stick to folder structure & naming  
+- Include explanations + code  
+- Keep code clean & readable  
+- No plagiarism  
