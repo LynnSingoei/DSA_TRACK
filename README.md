@@ -1,33 +1,7 @@
- DSA TRACK – COMPLETE BEGINNER TO EXPERT ROADMAP
+# DSA TRACK – COMPLETE BEGINNER TO EXPERT ROADMAP
 
 Welcome to the ultimate **DSA Mastery Repository** — designed to take anyone from absolute beginner to interview-ready expert.  
 This repo is structured with **Theory + Practice**, mini-projects, and pattern-based exercises.
-
----
-
-## 📂 Repository Structure
-
-📂 dsa-roadmap/
-│
-├── 📘 theory/
-│ ├── 01-introduction/
-│ ├── 02-arrays/
-│ ├── 03-linked-lists/
-│ ├── 04-stacks-and-queues/
-│ ├── 05-hashing/
-│ ├── 06-trees/
-│ ├── 07-heaps/
-│ ├── 08-graphs/
-│ ├── 09-greedy/
-│ ├── 10-dp/
-│ └── 11-sorting/
-│
-└── 🧠 practice/
-├── patterns/
-├── sample-format/
-└── two-sum/
-
-
 ---
 
 ## 🎯 Goals of This Repo
