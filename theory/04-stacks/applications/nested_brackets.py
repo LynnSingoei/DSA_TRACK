@@ -31,7 +31,29 @@ Examples:
 
 >>> nested_brackets("((())")
 'Invalid: more opening brackets than closing'
+## Algorithm
 
+1. Initialize an empty stack.
+
+2. Create a **mapping** from closing → opening brackets:
+```python
+bracket_map = {')':'(', '}':'{', ']':'['}
+
+    Loop through each character in the string:
+
+        If it’s an opening bracket, push onto the stack.
+
+        If it’s a closing bracket:
+
+            If the stack is empty → invalid (extra closing bracket)
+
+            Pop the top of the stack → if it doesn’t match the correct opening → invalid
+
+    After looping, check the stack:
+
+        If the stack is not empty → invalid (extra opening brackets)
+
+        Else → valid
 """
 def nested_brackets(s):
     stack=deque()
