@@ -22,10 +22,12 @@ A stack is a linear data structure that follows the LIFO (Last In, First Out) pr
 | peek       | O(1)           | O(n)            |
 | is_empty   | O(1)           | O(1)            |
 | size       | O(1)           | O(1)            |
-## Methods of implementations
-🏗️ Implementation 1: Linked List Stack
-🧰 Implementation 2: Dynamic Array (Python list)
-⚙️ Implementation 3: deque Stack (from collections)
+
+## Methods of Implementations
+
+- 🏗️ Implementation 1: Linked List Stack
+- 🧰 Implementation 2: Dynamic Array (Python list)
+- ⚙️ Implementation 3: deque Stack (from collections)
 
 ## Applications of Stacks
 
