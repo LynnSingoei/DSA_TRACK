@@ -1,6 +1,7 @@
 # DSA TRACK – COMPLETE BEGINNER TO EXPERT ROADMAP
 
-Welcome to the ultimate **DSA Mastery Repository** — designed to take anyone from absolute beginner to interview-ready expert.  
+Welcome to the ultimate **DSA Mastery Repository** designed 
+By:Lynn and Pascal to take anyone from absolute beginner to interview-ready expert.  
 This repo is structured with **Theory + Practice**, mini-projects, and pattern-based exercises.
 ---
 

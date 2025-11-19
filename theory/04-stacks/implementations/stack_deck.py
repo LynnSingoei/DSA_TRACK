@@ -1,5 +1,3 @@
-
-
 #implementation using collections.deque
 from collections import deque
 class DequeStack:
@@ -21,7 +19,7 @@ class DequeStack:
             print(f"| {item} |")
     
 
-stack=Stack()
+stack=DequeStack()
 stack.push(10)
 stack.push(20)
 stack.push(30)
@@ -31,4 +29,4 @@ print(stack.peek())
 stack.display()
 print(stack.size())
 print(stack.peek())
-print(stack)
+

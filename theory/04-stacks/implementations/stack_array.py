@@ -16,3 +16,13 @@ class ArrayStack:
     def display(self):
         for item in reversed(self.stack):
             print(f"| {item} |")
+stack=ArrayStack()
+stack.push(10)
+stack.push(20)
+stack.push(30)
+
+print(stack.pop())
+print(stack.peek())
+stack.display()
+print(stack.size())
+print(stack.peek())
