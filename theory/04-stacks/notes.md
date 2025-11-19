@@ -5,20 +5,23 @@ A stack is a linear data structure that follows the LIFO (Last In, First Out) pr
 
 ## 🧠 Core Operations
 
-Operation	Meaning
-push(x)	Add an element to the top
-pop()	Remove and return the top element
-peek()	Return the top element without removing it
-is_empty()	Check if stack is empty
-size()	Return number of elements
+| Operation | Meaning |
+|-----------|---------|
+| push(x)   | Add an element to the top |
+| pop()     | Remove and return the top element |
+| peek()    | Return the top element without removing it |
+| is_empty()| Check if stack is empty |
+| size()    | Return number of elements |
 
 ## Time & Space Complexity
-- Operation	 Time Complexity	Space Complexity
-- push	        O(1)	        O(n)
-- pop	            O(1)	        O(n)
-- peek	        O(1)	        O(n)
-- is_empty	    O(1)	        O(1)
-- size	        O(1)	        O(1)
+
+| Operation   | Time Complexity | Space Complexity |
+|------------|----------------|-----------------|
+| push       | O(1)           | O(n)            |
+| pop        | O(1)           | O(n)            |
+| peek       | O(1)           | O(n)            |
+| is_empty   | O(1)           | O(1)            |
+| size       | O(1)           | O(1)            |
 ## Methods of implementations
 🏗️ Implementation 1: Linked List Stack
 🧰 Implementation 2: Dynamic Array (Python list)
