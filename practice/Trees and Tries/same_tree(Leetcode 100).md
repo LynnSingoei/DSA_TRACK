@@ -28,7 +28,7 @@ This makes it ideal for:
 
 ## ✅ Recursive DFS Solution
 
-```python
+```
 class Solution(object):
     def isSameTree(self, p, q):
         # Both nodes None → identical
@@ -45,8 +45,10 @@ class Solution(object):
         
         # Recursively check children
         return (self.isSameTree(p.left, q.left) and 
-                self.isSameTree(p.right, q.right))
+                self.isSameTree(p.right, q.right))```python         
+```
 ## Iterative Approach
+```
 class Solution(object):
     def isSameTree(self, p, q):
         stack = [(p, q)]
@@ -67,7 +69,7 @@ class Solution(object):
             stack.append((node1.right, node2.right))
 
         return True
-
+```
 Algorithm Summary
 
 Compare the roots of both trees.
