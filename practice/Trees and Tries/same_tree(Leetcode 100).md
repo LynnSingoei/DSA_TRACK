@@ -70,7 +70,7 @@ Are the left subtrees the same? → self.isSameTree(p.left, q.left)
 Are the right subtrees the same? → self.isSameTree(p.right, q.right)
 
 Return True only if BOTH sides return True
-(like a relationship — both sides must be loyal 😭🔥).
+
 
 If at any point:
 
